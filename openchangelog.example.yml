@@ -1,22 +1,18 @@
 addr: 0.0.0.0:6001
 #log:
-  #level: INFO (default), DEBUG, WARN, ERROR
-  #style: text (default), json
+#  level: INFO (default), DEBUG, WARN, ERROR
+#  style: text (default), json
 
-#----- Use Github
 #github:
 #  owner:
 #  repo:
 #  path:
 #  auth:
 #    accessToken:
-#----- Use Gitlab
-# (Remove the placeholders According to your Usage)
 #gitlab:
-# project: "gitlab-org/gitlab-vscode-extension"
-# path: "CHANGELOG.md"
-# ref: "main"
-#----- Use Local
+#  project: gitlab-org/gitlab-vscode-extension
+#  path: CHANGELOG.md
+#  ref: main
 local:
   filesPath: /release-notes
 cache:
@@ -24,9 +20,9 @@ cache:
   disk:
     location: /data/cache/
 #analytics:
-  #provider: tinybird
-  #tinybird:
-    #accessToken:
+#  provider: tinybird
+#  tinybird:
+#    accessToken:
 page:
   title: Changelog
   subtitle: The latest product updates from Openchangelog
